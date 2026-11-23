@@ -27,7 +27,7 @@ allama-anthropic.workspace = true
 allama-openai.workspace = true
 allama-gemini.workspace = true
 # Not the workspace entry: that one turns on reqwest (xtask's transport).
-allama-openai-compat = { version = "0.2", default-features = false }
+allama-openai-compat = { version = "0.3", default-features = false }
 worker.workspace = true
 send_wrapper.workspace = true
 futures.workspace = true
